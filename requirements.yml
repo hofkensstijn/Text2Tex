@@ -9,6 +9,7 @@ dependencies:
   - torchvision==0.13.1
   - torchaudio==0.12.1
   - cudatoolkit=11.3
+  - bioconda perl-math-utils
   - fvcore
   - iopath
   - nvidiacub
