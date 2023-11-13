@@ -1,0 +1,19 @@
+name: text2tex
+channels:
+  - pytorch
+  - conda-forge
+  - xformers
+dependencies:
+  - python=3.9.15
+  - pytorch==1.12.1
+  - torchvision==0.13.1
+  - torchaudio==0.12.1
+  - cudatoolkit=11.3
+  - fvcore
+  - iopath
+  - nvidiacub
+  - pytorch3d
+  - xformers
+  - pip
+  - pip:
+    - -r requirements.txt
